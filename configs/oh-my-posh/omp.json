@@ -22,7 +22,7 @@
           {
             "background_templates": [
               "{{ if eq .OS \"ubuntu\" }}#ec9706{{ end }}",
-              "{{ if eq .OS \"windows\" }}#0079D8{{ end }}",
+              "{{ if eq .OS \"windows\" }}accent{{ end }}",
               "#2f2f2f"
             ],
             "foreground": "#100e23",
