@@ -36,7 +36,9 @@ zstyle ':completion:*' verbose true
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(oh-my-posh --init --shell zsh --config https://raw.githubusercontent.com/SiJiL82/utils/main/configs/oh-my-posh/omp.json)"
+
 
 # PATH additions
 path+=('$HOME/bin')
@@ -45,7 +47,8 @@ export path
 # Aliases
 alias ls="logo-ls"
 alias lsa="logo-ls -a"
-
+alias cat="batcat --paging=never"
+alias cata="batcat -A --paging=never"
 
 # Custom functions
 function mkcd {
