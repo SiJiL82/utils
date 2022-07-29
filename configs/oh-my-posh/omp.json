@@ -7,7 +7,7 @@
           {
             "background": "#ffffff",
             "background_templates": [
-              "{{if .Root}}#ff3026{{else}}#cfcfc4{{end}}"
+              "{{if .Root}}#ff3026{{else}}#ffffff{{end}}"
             ],
             "foreground": "#100e23",
             "properties": {
@@ -24,7 +24,7 @@
             "style": "powerline",
             "powerline_symbol": "\ue0b0",
             "foreground": "#100e23",
-            "background": "#ffffff",
+            "background": "#cfcfc4",
             "properties": {
               "time_format": "15:04"
             }
