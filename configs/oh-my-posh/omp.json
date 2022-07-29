@@ -22,7 +22,7 @@
           {
             "type": "time",
             "style": "powerline",
-            "powerline_symbol": "\ue0b0",
+            "powerline_symbol": "\u2800\ue0b0\u2800",
             "foreground": "#100e23",
             "background": "#ffffff",
             "properties": {
@@ -36,7 +36,7 @@
               "#2f2f2f"
             ],
             "foreground": "#100e23",
-            "powerline_symbol": "\ue0b0",
+            "powerline_symbol": "\u2800\ue0b0\u2800",
             "properties": {
               "folder_icon": "\uf115",
               "folder_separator_icon": "\u2800\ue0b1\u2800\ue5ff\u2800",
