@@ -22,6 +22,7 @@ if ($host.Name -eq 'ConsoleHost')
 # Oh-My-Posh
 try {
     oh-my-posh --init --shell pwsh --config https://raw.githubusercontent.com/SiJiL82/utils/main/configs/oh-my-posh/omp.json | Invoke-Expression
+    # oh-my-posh --init --shell pwsh --config D:\utils\omp.json | Invoke-Expression
 } catch {
     winget install JanDeDobbeleer.OhMyPosh
     Set-Variable PATH=C
