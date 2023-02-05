@@ -45,7 +45,7 @@
               "style": "agnoster_short"
             },
             "style": "powerline",
-            "template": "\u2800{{ .Path }}\u2800",
+            "template": "\u2800{{ path .Path .Location }}\u2800",
             "type": "path"
           },
           {
