@@ -3,7 +3,7 @@
 // @namespace    https://192.168.0.199
 // @version      0.1
 // @author       You
-// @description  Make YouTube use more screen space
+// @description  Make Plex edit modals use more screen space
 // @match        *://192.168.0.199:32400/*
 // @icon         https://www.google.com/s2/favicons?domain=plex.tv
 // @grant        none
