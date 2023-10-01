@@ -33,5 +33,5 @@ function addCss(cssString) {
     addCss("ytd-app:not([guide-persistent-and-visible]) [theater] .ytp-tooltip.ytp-tooltip-opaque.ytp-bottom {right: 60px!important;  top: 60px!important;}");
     addCss("ytd-watch-flexy[theater] #player-full-bleed-container.ytd-watch-flexy, ytd-watch-flexy[fullscreen] #player-full-bleed-container.ytd-watch-flexy {height: 100vh; max-height: 100vh;}");
     addCss("ytd-watch-flexy[full-bleed-player] #player-full-bleed-container.ytd-watch-flexy {height: 100vh !important; max-height: 100vh !important;}");
-    addCss("ytd-watch-flexy[full-bleed-player] #columns.ytd-watch-flexy {margin-top: 30vh !important;}");
+    addCss("ytd-watch-flexy[full-bleed-player] #full-bleed-container.ytd-watch-flexy {max-height: 100vh !important;}");
 })();
